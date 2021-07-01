@@ -1,8 +1,7 @@
-import { render } from '@testing-library/react';
+import { render } from 'react-dom'
 import React, {Component} from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Home from './Home';
 import Contact from './Contact';
 import About from './About';
 
