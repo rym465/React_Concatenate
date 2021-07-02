@@ -1,10 +1,7 @@
-import React, {Component} from 'react';
-import { render } from 'react-dom'
+import React, { Component } from 'react';
 
 class Header extends Component{
-    constructor(props){
-        super(props);
-    }
+  
     render(){
         return(
             <div>
@@ -13,6 +10,5 @@ class Header extends Component{
         )
     }
 }
-
 
 export default Header;

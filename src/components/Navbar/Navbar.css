@@ -1,0 +1,40 @@
+.NavbarItems{
+    background: linear-gradient(90deg, rgb(196, 196, 197) 0%, rgb(13, 13, 14) 100%);
+    height: 150px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nav-menu{
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links:hover{
+    color: red;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+    
+
